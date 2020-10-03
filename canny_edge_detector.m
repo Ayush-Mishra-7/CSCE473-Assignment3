@@ -141,6 +141,8 @@ for i = 1:size(hyst_out,1)
     end
 end
 
+output_image = hyst_out;
+
 figure(8);
 imshow(hyst_out);
 title('final Output');
